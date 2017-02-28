@@ -1,0 +1,60 @@
+body{
+	background-color: #e4e4e4;
+}
+header{
+	background-color: grey;
+	color: black;
+	font-size: 3em;
+}
+h1, h2{
+	color: black;
+	font-size: 2em;
+}
+ #unl{
+ 	width: 100%;
+ 	font-size: 3em;
+
+ }
+
+ input{
+ 	width: 80%;
+ }
+.nav {
+	height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    text-align: center;
+  	font-size: 2em;
+}
+.mydiv{
+	position: absolute;
+	left: 20%;
+}
+.pic{
+	width: 90%;
+	margin: 5%;
+
+}
+@media (max-width: 500px) {
+  .nav{
+  	height: auto;
+  	width: 100%;
+  	z-index: 0;
+  	background-color: transparent;
+  	
+  	position:relative;
+  	margin-top: 5%;
+  	border-bottom: 1px solid grey;
+  	text-align: center;
+  	font-size: 2em;
+
+  }
+  .mydiv{
+  	left:0;
+  }
+  
+}
